@@ -41,7 +41,7 @@
         android:icon="@drawable/ic_share_white_24dp"
         android:orderInCategory="400"
         android:title="@string/share"
-        app:showAsAction="always"/>
+        app:showAsAction="never"/>
     <item
         android:id="@+id/menu_checklist_on"
         android:icon="@drawable/ic_format_list_bulleted_black_24dp"
@@ -78,11 +78,11 @@
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/menu_archive"
-        android:icon="@drawable/ic_archive_black_48dp"
+        android:icon="@drawable/ic_archive_white_24dp"
         android:orderInCategory="800"
         android:title="@string/archive"
         android:visible="false"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="always"/>
     <item
         android:id="@+id/menu_unarchive"
         android:icon="@drawable/ic_unarchive_grey600_48dp"
