@@ -809,6 +809,7 @@ public class DbHelper extends SQLiteOpenHelper {
                 + " SELECT " + KEY_ID + ", " + KEY_CATEGORY
                 + " FROM " + TABLE_NOTES
                 + " WHERE " + KEY_TRASHED + " IS NOT 1"
+                + " AND " + KEY_ARCHIVED + " IS NOT 1"
                 + ") USING( " + KEY_CATEGORY + ") "
                 + " GROUP BY "
                 + KEY_CATEGORY_ID + ","
